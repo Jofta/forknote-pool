@@ -2,21 +2,31 @@
 <html>
 <head lang="en">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117596495-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117596495-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
 
     <title>Mining Pool</title>
 
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.0/jquery.timeago.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.0/jquery.timeago.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
 
     <script src="config.js"></script>
     <script src="custom.js"></script>
@@ -386,7 +396,7 @@
                 <li style="display:none;"><a class="hot_link" data-page="blockchain_transaction.html" href="#blockchain_transaction">
                 </a></li>
 <!-- //-->
-
+<!--
                 <li><a class="hot_link" data-page="network.html" href="#network">
                     <i class="fa fa-chain"></i> Network
                 </a></li>
@@ -394,7 +404,7 @@
                 <li><a class="hot_link" data-page="support.html" href="#support">
                     <i class="fa fa-comments"></i> Support
                 </a></li>
-
+-->
 
 
             </ul>
@@ -416,7 +426,11 @@
     <div class="text-muted">
         Powered by <a target="_blank" href="https://github.com/forknote/cryptonote-forknote-pool"><i class="fa fa-github"></i> cryptonote-forknote-pool</a>
         <span id="poolVersion"></span>
-        open sourced under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL</a>
+        <b>::</b> open sourced under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL</a>
+        <span id="poolContact"></span>
+        <b>::</b> <a href="https://www.jofta.com/index.php/harrier-mining-pool-contact/">Contact</a>
+        <span id="home"></span>
+        <b>::</b> <a href="https://jofta.com">Home</a>
     </div>
 </footer>
 
